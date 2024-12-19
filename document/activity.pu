@@ -1,0 +1,17 @@
+@startuml activity
+start
+fork
+  :銀行で金おろす;
+  :スーパーで卵を買う;
+  :卵を洗う;
+fork again
+  :腹筋して腹をへらす;
+fork again
+  :お湯を沸かす;
+end fork
+  :卵をゆでる;
+  :殻を割る;
+  :塩を振る;
+stop
+
+@endum
